@@ -1,3 +1,19 @@
+
+*{
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        margin-top: auto;
+    }
+}
+
+
+
 @media only screen and (max-width: 500px) {
 
     .cardslnb{
@@ -9,13 +25,72 @@
         display: none;
         
     }
+
+    .home h1{
+        margin-top: 3vw ;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+    }
+
+    
+
+    .home h3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+
+    }
+
+    .tieups{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    
+
+    .tieups img{
+
+        width: 15vw;
+        height: 15vw;
+        
+    }
+
+    .tieupimg{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tieups h1{
+        margin-top: 5vw;
+    }
+
+    .coursebutton{
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        margin-bottom: 10px;
+       
+    }
+
+    #btn{
+        background-color: rgb(171, 108, 230);
+        border-radius: 12px;
+        width: 22vw;
+        
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       
+    }
     
     
 }
 
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 500px) {
 
     .cardslnb{
         display: flex;
@@ -33,8 +108,73 @@
         justify-content: center;
         
     }
-}
 
+    .home h1{
+        margin-top: 1vw ;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+    }
+
+    .home h3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+    }
+
+    .tieups{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .tieups h1{
+        margin-top: 3vh;
+    }
+
+    
+
+    .tieups img{
+
+        width: 10vw;
+        height: 10vw;
+        
+       
+        
+    }
+
+    .tieupimg{
+        display: flex;
+        justify-content: center;
+    }
+
+    .coursebutton{
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        margin-bottom: 10px;
+       
+    }
+
+
+
+    #btn{
+    
+        background-color: rgb(122, 124, 213);
+        border-radius: 2rem;
+        width: 18vw;
+        height: 5vh;
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        font-size: large;
+        
+    }
+    
+
+    
+
+}
 
 
 
